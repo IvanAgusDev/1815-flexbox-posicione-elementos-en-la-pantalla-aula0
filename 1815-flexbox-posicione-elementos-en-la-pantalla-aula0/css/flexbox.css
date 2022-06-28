@@ -1,0 +1,39 @@
+.headerPrincipal.container {
+    display: flex;  /* Nos permite maquetar nuestras páginas web de una manera mucho más fácil*/
+    align-items: center; /* alinear los elementos en el centro */
+    justify-content: space-between; /* Crear Espacio entre los elementos */
+    }
+
+    .headerPrincipal-nav{
+    display: flex;
+    }
+
+    .rodapePrincipal-patrocinadores .container{ 
+    display: flex;
+    justify-content: space-between;/* Crear Espacio entre los elementos */
+    }
+    .rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;/* Crear Espacio alrededor de los items o elementos*/
+    width: 70%;
+    margin-right: 5%;
+    }
+    .rodapePrincipal-contatoForm{
+    width: 25%;
+    }
+    .rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+    }
+
+    /*Mapa de curso*/
+    .rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;/*indicamos al navegador que los elementos estan de un lado al otro column uno debajo de otro*/
+    height: 250px;/*aplicamos una altura*/
+    flex-wrap: wrap;/*Cuando llega a 250px va a quebrar a la siguiente columna*/
+}
+
+.contenidoPrincipal-cursos{
+    display: flex;
+}
